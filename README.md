@@ -1,20 +1,58 @@
 # CIT-autograd
 
-Install modul python yang diperlukan:
-PyMuPDF
-openai
-pandas
-openpyxl
+CIT-autograd adalah tool otomatis untuk menilai jawaban mahasiswa berbasis PDF atau image menggunakan answer key dan sistem penilaian terstruktur.
 
-Pada Command Prompt:
+---
 
-Jika run untuk pertama kali (Belum pernah ekstrak Kunci Jawaban):
-python autograd.py --student_answer "Alamat file jawaban Siswa" --key_answer "Alamat file kunci jawaban"
+## Requirements
+
+Pastikan Python sudah terinstall (disarankan Python 3.9+).
+
+Install module yang dibutuhkan:
+
+```bash
+pip install PyMuPDF openai pandas openpyxl
+```
+---
+## Project Structure (Example)
+```bash
+CIT-autograd/
+│
+├── autograd.py
+├── student-answer/
+│   └── Jawaban_Mahasiswa_Sosial_Theory.pdf
+├── key-answer/
+│   └── Kunci Jawaban Tugas Social Theory.pdf
+```
+## Usage
+
+Jalankan melalui Command Prompt / Terminal dari direktori root project.
+
+### First Run (Belum Pernah Ekstrak Kunci Jawaban)
+
+Gunakan opsi --key_answer saat pertama kali menjalankan program.
+```bash
+python autograd.py --student_answer "alamat_file_jawaban_siswa.pdf" --key_answer "alamat_file_kunci_jawaban.pdf"
+```
 Contoh:
+```bash
 python autograd.py --student_answer "student-answer\Jawaban_Mahasiswa_Sosial_Theory.pdf" --key_answer "key-answer\Kunci Jawaban Tugas Social Theory.pdf"
+```
+### Run Berikutnya (Kunci Jawaban Sudah Diekstrak)
 
-Jika sudah diekstrak kunci jawaban dan akan menilai jawaban lainnya:
-python autograd.py --student_answer "Alamat file jawaban Siswa"
-Contoh
+Jika kunci jawaban sudah pernah diekstrak, cukup jalankan:
+```bash
+python autograd.py --student_answer "alamat_file_jawaban_siswa.pdf"
+```
+Contoh:
+```bash
 python autograd.py --student_answer "student-answer\Jawaban_Mahasiswa_Sosial_Theory.pdf"
-
+```
+### Output
+Program akan:
+- Mengekstrak teks dari file PDF
+- Membandingkan jawaban mahasiswa dengan kunci jawaban
+- Memberikan skor per soal (0–100)
+- Menghasilkan file Excel berisi detail penilaian
+- Menghasilkan file json untuk di gunakan di web
+  
