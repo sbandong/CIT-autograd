@@ -1,0 +1,56 @@
+{
+    "items": [
+        {
+            "no": "1",
+            "score_0_100": 85,
+            "rationale": "Jawaban mencakup konsep utama fungsionalisme dan teori konflik, namun kurang kedalaman dan istilah kunci seperti 'fungsi' dan 'integrasi' tidak disebutkan secara eksplisit.",
+            "feedback": "Jawaban sudah baik, tambahkan istilah kunci dan contoh untuk kedalaman.",
+            "missing_points": [
+                "Istilah 'fungsi', 'integrasi', 'stabilitas sosial'",
+                "Contoh penerapan teori"
+            ]
+        },
+        {
+            "no": "2",
+            "score_0_100": 90,
+            "rationale": "Jawaban tepat dan lengkap, menyebutkan kelas utama dan sumber konflik serta kaitannya dengan perubahan sosial.",
+            "feedback": "Jawaban sudah sesuai, bisa ditambah contoh konkret konflik kelas.",
+            "missing_points": [
+                "Contoh konkret konflik kelas"
+            ]
+        },
+        {
+            "no": "3",
+            "score_0_100": 88,
+            "rationale": "Jawaban sudah benar dan menyentuh perbedaan solidaritas mekanik dan organik, namun kurang penekanan pada karakteristik masyarakat tradisional dan modern.",
+            "feedback": "Penjelasan baik, tambahkan penekanan pada karakteristik masyarakat tradisional dan modern.",
+            "missing_points": [
+                "Karakteristik masyarakat tradisional dan modern"
+            ]
+        },
+        {
+            "no": "4",
+            "score_0_100": 92,
+            "rationale": "Jawaban lengkap dan sesuai, menyebutkan makna subjektif dan contoh tindakan sosial yang relevan.",
+            "feedback": "Jawaban sudah baik, tambahkan istilah 'tindakan sosial' secara langsung.",
+            "missing_points": [
+                "Istilah 'tindakan sosial'"
+            ]
+        },
+        {
+            "no": "5",
+            "score_0_100": 87,
+            "rationale": "Jawaban sudah benar dan menyentuh konsep utama, namun kurang penjelasan tentang proses interpretasi simbol dan contoh konkret looking-glass self.",
+            "feedback": "Penjelasan baik, tambahkan contoh dan penjelasan proses interpretasi simbol.",
+            "missing_points": [
+                "Proses interpretasi simbol",
+                "Contoh konkret looking-glass self"
+            ]
+        }
+    ],
+    "flags": {
+        "too_short": false,
+        "possible_off_topic": false
+    },
+    "overall_score_0_100": 88.4
+}
