@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "no": "1",
+            "question": "Jelaskan perbedaan antara fungsionalisme dan teori konflik dalam melihat masyarakat.",
+            "answer": "Fungsionalisme (Durkheim, Parsons) memandang masyarakat sebagai sistem yang terintegrasi dengan fungsi tertentu untuk menjaga stabilitas sosial. Teori konflik (Marx) melihat struktur sosial sebagai hasil pertarungan kepentingan dan distribusi kekuasaan yang tidak merata."
+        },
+        {
+            "no": "2",
+            "question": "Bagaimana Karl Marx menjelaskan konflik kelas dalam masyarakat?",
+            "answer": "Marx membagi masyarakat menjadi borjuis (pemilik alat produksi) dan proletariat (pekerja). Konflik kelas bersumber dari eksploitasi tenaga kerja dan ketimpangan kepemilikan modal, yang pada akhirnya dapat memicu perubahan sosial revolusioner."
+        },
+        {
+            "no": "3",
+            "question": "Jelaskan perbedaan solidaritas mekanik dan solidaritas organik menurut Durkheim.",
+            "answer": "Solidaritas mekanik ditandai oleh kesamaan kolektif dan dominasi kesadaran bersama pada masyarakat sederhana. Solidaritas organik muncul dalam masyarakat modern dengan diferensiasi pekerjaan dan ketergantungan fungsional antar individu."
+        },
+        {
+            "no": "4",
+            "question": "Apa yang dimaksud dengan tindakan sosial menurut Max Weber?",
+            "answer": "Weber mendefinisikan tindakan sosial sebagai tindakan yang memiliki makna subjektif dan mempertimbangkan perilaku orang lain. Ia membagi tindakan sosial menjadi rasional instrumental, rasional nilai, afektif, dan tradisional."
+        },
+        {
+            "no": "5",
+            "question": "Bagaimana interaksionisme simbolik menjelaskan pembentukan identitas individu?",
+            "answer": "Interaksionisme simbolik (Mead, Blumer) menekankan bahwa identitas diri terbentuk melalui proses interaksi dan interpretasi simbol. Konsep looking-glass self menjelaskan bahwa individu melihat dirinya berdasarkan respons sosial dari orang lain."
+        }
+    ]
+}
